@@ -2,11 +2,10 @@ def my_collect(array)
   n = 0
   collecter = []
   while n < array.length 
-    collecter << yield(array[i])
+    collecter << yield(array[n])
     n += 1
   end  
   collecter
-
 end
 
 require 'pry'
